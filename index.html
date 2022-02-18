@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spirit Kick Hikes</title>
+    <style>
+        .sw-wide, .sw-medium, .sw-narrow {
+            display: none;
+        }
+        @media (max-width: 500px) {
+            .sw-narrow { display: block; }
+        }
+        @media (min-width: 500px) and (max-width: 1000px) {
+            .sw-medium { display: block; }
+        }
+        @media (min-width: 1000px) {
+            .sw-wide { display: block; }
+        }
+    </style>
 </head>
 <body>
 <script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/985858" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe></body>
+<div class="sw-wide">
+    <iframe src="https://snapwidget.com/embed/985858" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe></body>
+</div>
+<div class="sw-medium">
+    <iframe src="https://snapwidget.com/embed/985862" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+</div>
+<div class="sw-narrow">
+    <iframe src="https://snapwidget.com/embed/985863" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+</div>
 </html>
